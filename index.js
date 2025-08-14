@@ -13,8 +13,8 @@ const HTML_PAGE = `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <meta name="description" content="声音魔法师，一键将文字转换为自然流畅的语音，支持20+种中文声音，免费在线使用，让你的内容更生动有趣！">
-    <meta name="keywords" content="文字转语音,AI语音合成,在线TTS,语音生成器,免费语音工具">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <style>
         :root {
             --primary-color: #2563eb;
@@ -390,29 +390,6 @@ const HTML_PAGE = `
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>声音</h1>
-            <p class="subtitle">开口说话</p>
-            <div class="features">
-                <div class="feature-item">
-                    <span class="feature-icon">✨</span>
-                    <span>20+种中文声音</span>
-                </div>
-                <div class="feature-item">
-                    <span class="feature-icon">⚡</span>
-                    <span>秒速生成</span>
-                </div>
-                <div class="feature-item">
-                    <span class="feature-icon">🆓</span>
-                    <span>完全免费</span>
-                </div>
-                <div class="feature-item">
-                    <span class="feature-icon">📱</span>
-                    <span>支持下载</span>
-                </div>
-            </div>
-        </div>
         
         <div class="main-content">
             <div class="form-container">
@@ -908,5 +885,6 @@ function dateFormat() {
     const formattedDate = (new Date()).toUTCString().replace(/GMT/, "").trim() + " GMT";
     return formattedDate.toLowerCase();
 }
+
 
 
